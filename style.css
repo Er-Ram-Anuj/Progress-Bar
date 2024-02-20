@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    overflow-x: hidden;
+    background-color: azure;
+    position: relative;
+}
+p{
+    border: 1px solid red;
+    padding: 0px 1rem;
+    margin: 2rem;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: justify;
+}
+h1{
+    margin: 3rem 2rem;
+    color: red;
+    justify-content: center;
+}
+.progress_div{
+    height: 1rem;
+    background-color: rgb(216, 216, 216);
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    position: fixed;
+}
+#progressBar{
+    width: 0%;
+    background-color: rgb(96, 243, 11);
+    height: 100%;
+}
